@@ -1,8 +1,8 @@
 # 📄 Billys Interactive Resume
 
-> I built this to demonstrate some of my skills and show potential clients how I can help. My day job is working for a company that manages some of the worlds largest bands and brands. 
+> I built this to demonstrate some of my skills and show potential clients how I can help. My day job is working for a company that manages some of the worlds largest bands and brands within the Shopify platform.
 
-- I am looking to start this side business because I have recently become the sole provider of my household. 
+- I am looking to start this side business because I have recently become the sole provider of my household.
 
 ---
 
