@@ -285,7 +285,7 @@ header h1 {
   font-size: 1.1rem;
   transition: all 0.3s ease;
   backdrop-filter: blur(10px);
-  min-width: 200px;
+  min-width: 302px;
   justify-content: center;
 }
 
@@ -387,159 +387,12 @@ header h1 {
   .contact-item {
     font-size: 0.95rem;
     padding: 10px 16px;
-    min-width: 160px;
   }
 
   .contact-item i {
     font-size: 1.1rem;
   }
 }
-
-/* ============================================================================
-   NAVIGATION SECTION
-   ============================================================================ */
-
-.main-navigation {
-  color: #122434;
-  padding: 0;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.nav-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 20px;
-}
-
-.nav-menu {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  gap: 0;
-}
-
-.nav-item {
-  margin: 0;
-}
-
-.nav-link {
-  display: block;
-  color: #122434;
-  text-decoration: none;
-  padding: 18px 24px;
-  font-weight: 600;
-  font-size: 1.1rem;
-  transition: all 0.3s ease;
-  border-bottom: 3px solid transparent;
-  position: relative;
-}
-
-.nav-link:hover {
-  background: #549a83;
-  transform: translateY(-2px);
-}
-
-.nav-link.active {
-  background: rgba(255, 255, 255, 0.15);
-  border-bottom-color: #f3d24f;
-  color: #f3d24f;
-}
-
-/* Slider Navigation */
-.slider-container {
-  position: relative;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-.slider-nav {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin-top: 30px;
-}
-
-.nav-btn {
-  background: rgba(255, 255, 255, 0.2);
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  color: white;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.2rem;
-  transition: all 0.3s ease;
-  backdrop-filter: blur(10px);
-}
-
-.nav-btn:hover {
-  background: rgba(255, 255, 255, 0.3);
-  transform: scale(1.1);
-}
-
-.nav-btn:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-  transform: scale(1);
-}
-
-.slider-dots {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 20px;
-}
-
-.dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.4);
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.dot.active {
-  background: white;
-  transform: scale(1.2);
-}
-
-/* NAVIGATION SECTION - MEDIA QUERIES */
-@media (min-width: 1101px) {
-  .nav-link {
-    font-size: 18px;
-  }
-}
-
-@media (max-width: 1100px) {
-  .nav-link {
-    font-size: 15px;
-    padding: 10px;
-  }
-}
-
-@media (max-width: 768px) {
-  .nav-link {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 750px) {
-  .main-navigation {
-    display: none;
-  }
-}
-
 /* ============================================================================
    HOW I CAN HELP YOUR BUSINESS SECTION (FLIP CARDS)
    ============================================================================ */
@@ -826,7 +679,7 @@ header h1 {
 @media (max-width: 480px) {
   .about-me-container {
     flex: 0 0 calc(100vw - 70px);
-    height: 325px;
+    height: 365px;
     width: calc(100vw - 70px);
     margin: 0 5px 20px;
     display: block;
@@ -1475,7 +1328,7 @@ p.day-job {
 }
 
 .section h2 {
-  font-size: 48px !important;
+  font-size: 40px !important;
   font-weight: 700;
   background: linear-gradient(45deg, #72b1a8, #549a83);
   -webkit-background-clip: text;
@@ -1610,7 +1463,7 @@ p.day-job {
   }
 
   .section h2 {
-    font-size: 1.8rem;
+    font-size: 26px !important;
   }
 
   .bullet-list li {
