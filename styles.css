@@ -1711,52 +1711,6 @@ p.day-job {
     line-height: 1.5;
   }
 }
-
-/* ============================================================================
-   PRICING TICKER SECTION
-   ============================================================================ */
-
-.pricing-ticker-container {
-  width: 100%;
-  overflow: hidden;
-  background: #f3d24f;
-  padding: 20px 0;
-  position: relative;
-  white-space: nowrap;
-}
-
-.text-ticker {
-  display: inline-block;
-  font-size: 24px;
-  font-weight: bold;
-  color: #132534;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  animation: scroll-left 120s linear infinite;
-  padding-right: 100vw;
-}
-
-@keyframes scroll-left {
-  0% {
-    transform: translateX(100vw);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-/* PRICING TICKER - MEDIA QUERIES */
-@media (max-width: 768px) {
-  .text-ticker {
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .text-ticker {
-    font-size: 1.2rem;
-  }
-}
-
 /* ============================================================================
    CALL TO ACTION / PRICING SECTION
    ============================================================================ */
